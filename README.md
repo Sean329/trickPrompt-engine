@@ -1,3 +1,14 @@
+# ATTENTION
+个人修改包括如下文件，与从主分支获取更新时注意保留：
+1. .gitignore
+2. .vscode/settings.json
+3. README.md
+4. convert.ipynb
+5. src/.zshrc
+6. src/dataset/agent-v1-c4/datasets.json
+7. src/db.sql --- 三处用户名更改
+8. src/main.py --- project id
+
 # Recently Updated
 2024.04.29:
 1. Add function to basiclly support rust language.
