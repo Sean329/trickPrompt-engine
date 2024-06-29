@@ -44,6 +44,7 @@ class AiEngine(object):
         response = requests.post(f'https://{api_base}/v1/chat/completions', headers=headers, json=data)
         try:
             response_josn = response.json()
+            # print(response_josn)
         except Exception as e:
             return ''
         if 'choices' not in response_josn:

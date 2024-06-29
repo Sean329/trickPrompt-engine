@@ -119,6 +119,16 @@
         "path":"domichain-aiproxy",
         "files":[],
         "functions":[]
+    },
+    "badger":{
+        "path":"badger",
+        "files":["ebtc-zap-router/src/EbtcLeverageZapRouter.sol",
+                    "ebtc-zap-router/src/LeverageZapRouterBase.sol",
+                    "ebtc-zap-router/src/ZapRouterBase.sol",
+                    "ebtc-zap-router/src/interface/IEbtcLeverageZapRouter.sol",
+                    "ebtc-protocol/packages/contracts/contracts/LeverageMacroBase.sol"
+        ],
+        "functions":[]
     }
     
     

@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
 其中，`StEverVault2` 代表项目自定义名，它的名字与 `src/main.py` 中的 `project_id` 相同。`path` 指代的是 `agent-v1-c4` 下项目的具体实际路径。`files` 指代的是要具体扫描的合约文件，如果不配置，则默认扫描全部。`functions` 指代的是要具体扫描的函数名，如果不配置，则默认扫描全部函数，形式为【合约名.函数名】。
 
-4. 使用 `src/db.sql` 创建数据库，需要提前安装 PostgreSQL。
+4. 使用 `src/db.sql` 创建数据库，需要提前安装 PostgreSQL。启动PostgreSQL服务，运行`brew services start postgresql`.
 
 5. 设置 `.env` 文件，通过创建 `.env` 文件并填写以下内容来配置你的环境：
 

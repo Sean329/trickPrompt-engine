@@ -26,7 +26,7 @@ MINVALUE  1
 MAXVALUE 2147483647
 START 1
 CACHE 1;
-ALTER SEQUENCE "public"."project_tasks_id_seq" OWNER TO "postgres";
+ALTER SEQUENCE "public"."project_tasks_id_seq" OWNER TO "xuxiangy";
 
 -- ----------------------------
 -- Table structure for project_tasks
@@ -59,7 +59,7 @@ CREATE TABLE "public"."project_tasks" (
   "title" varchar COLLATE "pg_catalog"."default"
 )
 ;
-ALTER TABLE "public"."project_tasks" OWNER TO "postgres";
+ALTER TABLE "public"."project_tasks" OWNER TO "xuxiangy";
 
 -- ----------------------------
 -- Table structure for project_tasks_amazing_prompt
@@ -96,7 +96,7 @@ CREATE TABLE "public"."project_tasks_amazing_prompt" (
   "if_business_flow_scan" varchar COLLATE "pg_catalog"."default"
 )
 ;
-ALTER TABLE "public"."project_tasks_amazing_prompt" OWNER TO "postgres";
+ALTER TABLE "public"."project_tasks_amazing_prompt" OWNER TO "xuxiangy";
 
 -- ----------------------------
 -- Alter sequences owned by
