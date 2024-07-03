@@ -159,7 +159,7 @@ if __name__ == '__main__':
 
 其中，`StEverVault2` 代表项目自定义名，它的名字与 `src/main.py` 中的 `project_id` 相同。`path` 指代的是 `agent-v1-c4` 下项目的具体实际路径。`files` 指代的是要具体扫描的合约文件，如果不配置，则默认扫描全部。`functions` 指代的是要具体扫描的函数名，如果不配置，则默认扫描全部函数，形式为【合约名.函数名】。
 
-4. 使用 `src/db.sql` 创建数据库，需要提前安装 PostgreSQL。启动PostgreSQL服务，运行`brew services start postgresql`.
+4. 使用 `src/db.sql` 创建数据库，需要提前安装 PostgreSQL。启动PostgreSQL服务，运行`brew services start postgresql`; 创建数据库运行`psql -d postgres -f src/db.sql`; 如果要清空之前已写入内容则`psql -d postgres -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;"`。 自行查看数据库 `psql postgres`连接数据库；`\l` 列出所有数据库； `\dt`列出已连接的数据库内所有tables。
 
 5. 设置 `.env` 文件，通过创建 `.env` 文件并填写以下内容来配置你的环境：
 
@@ -197,7 +197,7 @@ SWITCH_BUSINESS_CODE=True
 3. 一般扫描时间为2-3小时，取决于项目大小和随机次数，中型项目+10次随机大约2个半小时
 4. 中型项目+10次随机大约需要20-30美金成本
 5. 当前还是有误报，按项目大小，大约30-65%，小项目误报会少一些，且还有很多自定义的东西，后续会继续优化
-6. 结果做了很多标记和中文解释。运行类似`copy project_tasks_amazing_prompt to '/Users/xuxiangy/Desktop/trickPrompt-engine/bot_results_PROJECTNAME.csv' DELIMITER ',' CSV HEADER;`将结果输出为csv，可以再用名为`convert`的notebook转化为Excel。
+6. 结果做了很多标记和中文解释。运行类似`copy project_tasks_amazing_prompt to '/Users/xuxiangy/Desktop/trickPrompt-engine/results/bot_results_PROJECTNAME.csv' DELIMITER ',' CSV HEADER;`将结果输出为csv，可以再用名为`convert`的notebook转化为Excel。
   1. 优先看result列中有【"result":"yes"】的（有时候是"result": "yes"，带个空格）
   2. category列优先筛选出【dont need In-project other contract】 的
   3. 具体的代码看business_flow_code列

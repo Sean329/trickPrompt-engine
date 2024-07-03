@@ -129,6 +129,33 @@
                     "ebtc-protocol/packages/contracts/contracts/LeverageMacroBase.sol"
         ],
         "functions":[]
+    },
+    "ccip":{
+        "path":"ccip",
+        "files":["interfaces/IGetCCIPAdmin.sol",
+                    "interfaces/IOwner.sol",
+                    "interfaces/IPool.sol",
+                    "interfaces/ITokenAdminRegistry.sol",
+                    "libraries/Client.sol",
+                    "libraries/Internal.sol",
+                    "libraries/Pool.sol",
+                    "offRamp/EVM2EVMOffRamp.sol",
+                    "onRamp/EVM2EVMOnRamp.sol",
+                    "pools/USDC/USDCTokenPool.sol",
+                    "pools/BurnFromMintTokenPool.sol",
+                    "pools/BurnMintTokenPool.sol",
+                    "pools/BurnMintTokenPoolAbstract.sol",
+                    "pools/BurnMintTokenPoolAndProxy.sol",
+                    "pools/BurnWithFromMintTokenPool.sol",
+                    "pools/LegacyPoolWrapper.sol",
+                    "pools/LockReleaseTokenPool.sol",
+                    "pools/LockReleaseTokenPoolAndProxy.sol",
+                    "pools/TokenPool.sol",
+                    "tokenAdminRegistry/RegistryModuleOwnerCustom.sol",
+                    "tokenAdminRegistry/TokenAdminRegistry.sol",
+                    "CommitStore.sol"
+        ],
+        "functions":[]
     }
     
     
