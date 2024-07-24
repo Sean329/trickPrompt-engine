@@ -216,6 +216,13 @@
                     "univ2-pool-migrator/deploy/UniV2PoolMigratorInit.sol"
         ],
         "functions":[]
+    },
+    "munchables":{
+        "path":"munchables",
+        "files":[
+            "managers/LandManager.sol"
+        ],
+        "functions":[]
     }
     
     
