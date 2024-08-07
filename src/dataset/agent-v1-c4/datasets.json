@@ -223,6 +223,32 @@
             "managers/LandManager.sol"
         ],
         "functions":[]
+    },
+    "tadle":{
+        "path":"tadle",
+        "files":[
+            "core/CapitalPool.sol",
+            "core/DeliveryPlace.sol",
+            "core/PreMarkets.sol",
+            "core/SystemConfig.sol",
+            "core/TokenManager.sol",
+            "factory/ITadleFactory.sol",
+            "factory/TadleFactory.sol",
+            "interfaces/ICapitalPool.sol",
+            "interfaces/IDeliveryPlace.sol",
+            "interfaces/IPerMarkets.sol",
+            "interfaces/ISystemConfig.sol",
+            "interfaces/ITokenManager.sol",
+            "libraries/MarketPlaceLibraries.sol",
+            "libraries/OfferLibraries.sol",
+            "storage/CapitalPoolStorage.sol",
+            "storage/DeliveryPlaceStorage.sol",
+            "storage/OfferStatus.sol",
+            "storage/PerMarketsStorage.sol",
+            "storage/SystemConfigStorage.sol",
+            "storage/TokenManagerStorage.sol"
+        ],
+        "functions":[]
     }
     
     
