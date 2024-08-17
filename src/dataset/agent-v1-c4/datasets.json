@@ -254,6 +254,11 @@
         "path":"alkimiya",
         "files":[],
         "functions":[]
+    },
+    "sentimentV2":{
+        "path":"sentimentV2",
+        "files":[],
+        "functions":[]
     }
     
     
