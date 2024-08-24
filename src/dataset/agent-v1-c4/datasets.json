@@ -259,6 +259,21 @@
         "path":"sentimentV2",
         "files":[],
         "functions":[]
+    },
+    "zetachain":{
+        "path":"zetachain",
+        "files":[
+            "evm/ERC20Custody.sol",
+            "evm/GatewayEVM.sol",
+            "evm/ZetaConnectorBase.sol",
+            "evm/ZetaConnectorNative.sol",
+            "evm/ZetaConnectorNonNative.sol",
+            "zevm/GatewayZEVM.sol",
+            "zevm/ZRC20.sol",
+            "Revert.sol",
+            "lib.rs"
+        ],
+        "functions":[]
     }
     
     
