@@ -279,6 +279,14 @@
         "path":"morphL2",
         "files":[],
         "functions":[]
+    },
+    "bagful":{
+        "path":"bagful",
+        "files":[
+            "comm/TransferHelper.sol",
+            "farms/mendiCompoundFarm.sol"
+        ],
+        "functions":[]
     }
     
     
