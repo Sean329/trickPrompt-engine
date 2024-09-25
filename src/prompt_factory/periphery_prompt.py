@@ -14,7 +14,7 @@ class PeripheryPrompt:
     
 
     def task_set_blockchain_common():
-        return """Your task is to pinpoint and correct any logical vulnerabilities present in the code. """
+        return """Your task is to pinpoint and correct any complex logical vulnerabilities present in the code. """
     
 
     def guidelines_v1():

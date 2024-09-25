@@ -287,6 +287,12 @@
             "farms/mendiCompoundFarm.sol"
         ],
         "functions":[]
+    },
+    "instadapp":{
+        "path":"instadapp",
+        "files":[
+        ],
+        "functions":[]
     }
     
     
