@@ -299,6 +299,12 @@
         "files":[
         ],
         "functions":[]
+    },
+    "bloomv2":{
+        "path":"bloomv2",
+        "files":[
+        ],
+        "functions":[]
     }
     
     
