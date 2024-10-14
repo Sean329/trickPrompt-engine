@@ -293,6 +293,12 @@
         "files":[
         ],
         "functions":[]
+    },
+    "stakeup":{
+        "path":"stakeup",
+        "files":[
+        ],
+        "functions":[]
     }
     
     
