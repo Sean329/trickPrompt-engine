@@ -311,6 +311,12 @@
         "files":[
         ],
         "functions":[]
+    },
+    "coinbase":{
+        "path":"coinbase",
+        "files":[
+        ],
+        "functions":[]
     }
     
     
